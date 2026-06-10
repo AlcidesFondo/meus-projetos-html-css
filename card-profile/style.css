@@ -55,3 +55,25 @@ body{
     font-weight: 300;
     color: #333;
 }
+
+.profile-card .media-buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+
+.media-buttons .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0px 8px ;
+    width: 34px;
+    height: 34px;
+    background-color:#4070f4;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #fff;
+}
