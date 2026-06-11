@@ -62,8 +62,6 @@ body{
     margin-top: 15px;
 }
 
-
-
 .media-buttons .link{
     display: flex;
     justify-content: center;
@@ -76,4 +74,21 @@ body{
     border-radius: 50%;
     font-size: 18px;
     color: #fff;
+}
+.buttons{
+    margin-top: 15px;
+}
+.button{
+    color: #fff;
+    font-size: 12px;
+    padding: 6px 16px;
+    border-radius: 22px;
+    margin: 0 8px;
+    border: none;
+    background-color:#4070f4 ;
+}
+
+.analytics{
+    margin-top: 20px;
+    display: flex;
 }
