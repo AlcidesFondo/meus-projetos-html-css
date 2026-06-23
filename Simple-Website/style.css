@@ -73,7 +73,6 @@ nav .menu{
     top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: red;
     text-align: center;
     padding: 0 20px;
 }
@@ -88,5 +87,27 @@ nav .menu{
     font-weight: 600;
 }
 .middle .bts{
-
+    margin-top: 20px;
+}
+button{
+    margin: 0 10px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 12px 26px;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.6s;
+}
+button:first-child{
+    color: #fff;
+    background: none;
+    border: 2px solid #fff ;
+}
+button:first-child:hover{
+    color: #000;
+    background-color: #fff;
 }
