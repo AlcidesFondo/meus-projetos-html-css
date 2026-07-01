@@ -4,3 +4,55 @@
     box-sizing: border-box;
     font-family: Poppins;
 }
+
+body{
+    position: relative;
+}
+
+.mainbox{
+    position: relative;
+    background: url(image.JPG)  no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.mainbox .sidebar{
+    position: fixed;
+    width: 280px;
+    height: 100%;
+    background: rgb(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+.sidebar .logo{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+.sidebar .logo a {
+    position: absolute;
+    color: #fff;
+    left: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+.sidebar .menu{
+    position: absolute;
+    top: 80px;    
+}
+
+.sidebar .menu li{
+    background-color: red;
+    margin: 10px 0;
+}
+.sidebar .menu a{
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+   
+
+}
