@@ -37,6 +37,7 @@ body{
     font-weight: 600;
     line-height: 60px;
     text-decoration: none;
+    
 }
 
 .sidebar .menu{
@@ -45,14 +46,37 @@ body{
 }
 
 .sidebar .menu li{
-    background-color: red;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 .sidebar .menu a{
     position: absolute;
     text-decoration: none;
     color: #fff;
     margin-left: 30px;
-   
-
+    padding-left: 10px;
+    width: 200px;
+    display: flex;
+    align-items: center;
 }
+
+.menu i{
+    margin-right: 10px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.social-media i{
+    color: #fff;
+    font-size: 26px;
+    margin-right: 10px;
+}
+
+.sidebar .social-media{
+    padding-bottom: 5px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+}
+
