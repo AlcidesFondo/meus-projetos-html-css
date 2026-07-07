@@ -48,18 +48,30 @@ body{
 .sidebar .menu li{
     margin: 20px 0;
 }
+
 .sidebar .menu a{
     position: absolute;
     text-decoration: none;
     color: #fff;
     margin-left: 30px;
     padding-left: 10px;
+    padding: 10px;
     width: 200px;
     display: flex;
     align-items: center;
+    transition: all 0.10s ease;
+
+}
+
+.sidebar .menu a:hover{
+    margin: 0 0;
+    border-left: 1px solid #fff ;
+    background: rgb(255, 255, 255, 0.3);
 }
 
 .menu i{
+    
+    
     margin-right: 10px;
     font-size: 22px;
     display: flex;
